@@ -1,0 +1,35 @@
+body {
+  background: #000;
+  color: #ffffff;
+  font-family: Source Sans Pro;
+  width: 960px;
+  margin: 0 auto; }
+  body .header {
+    font-family: impact;
+    font-size: 35px;
+    text-align: center;
+    padding: 5%; }
+
+.search {
+  margin: 0 auto;
+  width: 15%; }
+
+#results {
+  margin: 0 auto; }
+  #results .movie {
+    float: left;
+    padding: 2%;
+    font-size: 12px; }
+    #results .movie img.poster {
+      width: 150px;
+      height: 225px;
+      margin: 0 auto;
+      float: left;
+      display: block; }
+    #results .movie .title, #results .movie .rating, #results .movie .release {
+      text-align: center;
+      width: 150px;
+      display: block; }
+
+.clear {
+  clear: both; }
