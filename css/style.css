@@ -4,20 +4,36 @@ body {
   font-family: Source Sans Pro;
   width: 960px;
   margin: 0 auto; }
+  @media screen and (max-width: 640px) {
+    body {
+      width: 100%; } }
   body .header {
     font-family: impact;
     font-size: 35px;
     text-align: center;
     padding: 5%; }
+    @media screen and (max-width: 640px) {
+      body .header {
+        width: 100%; } }
 
 .search {
   margin: 0 auto;
   width: 50%; }
+  @media screen and (max-width: 640px) {
+    .search {
+      width: 100%; } }
   .search #searchform {
     width: 100%;
     height: 60px;
     text-align: center;
     font-size: 30px; }
+    @media screen and (max-width: 640px) {
+      .search #searchform {
+        width: 85%;
+        height: 30px;
+        font-size: 20px;
+        margin: 0 auto;
+        display: block; } }
   .search a {
     font-size: 24px;
     color: #000;
@@ -28,6 +44,10 @@ body {
     width: 25%;
     text-align: center;
     margin: 20px auto; }
+    @media screen and (max-width: 640px) {
+      .search a {
+        font-size: 15px;
+        padding: 0px; } }
 
 #results {
   margin: 0 auto; }
