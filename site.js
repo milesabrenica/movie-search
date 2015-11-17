@@ -18,7 +18,7 @@ function movieFunction(){
 			serverResponse.results[i].poster_path;  
 			
 			if(serverResponse.results[i].poster_path == null) {
-					posterImg = "img/nophoto.png";
+					posterImg = "img/placeholder.png";
 				} 
 
 				else{
