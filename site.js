@@ -26,7 +26,7 @@ function movieFunction(){
 				}
 
 
-			$("#results").append('<div class="movie"><img class="poster" src="'+posterImg+'"><div class="title">'+serverResponse.results[i].title+'</div><div class="rating">'+serverResponse.results[i].vote_average+'</div><div class="release">'+serverResponse.results[i].release_date+'</div></div>');	
+			$("#results").append('<div class="movie"><img class="poster" src="'+posterImg+'"><div class="title">'+serverResponse.results[i].title+'</div></div>');	
 			};
 		}
 	});	
